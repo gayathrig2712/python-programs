@@ -1,0 +1,17 @@
+a=int(input("Enter value of a"))
+b=int(input("Enter value of b"))
+print(a>b)
+print(a<b)
+print(a==b)
+print(a>=b)
+print(a<=b)
+print(a!=b)
+output:-
+Enter value of a50
+Enter value of b25
+True
+False
+False
+True
+False
+True
