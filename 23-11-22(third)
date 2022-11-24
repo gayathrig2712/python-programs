@@ -1,0 +1,8 @@
+a=int(input("Enter first number"))
+if a%2==0:
+    print("the given number is even")
+else:
+    print("the given number is odd")
+output:-
+Enter first number22
+the given number is even
