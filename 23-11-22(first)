@@ -1,0 +1,11 @@
+program:-
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
+if a>b:
+    print("the first number-",a,"is big")
+else:
+    print("the second number-",b,"is big")
+output:-
+Enter first number23
+Enter second number45
+the second number- 45 is big
