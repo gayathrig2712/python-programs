@@ -1,0 +1,6 @@
+a=int(input("Enter first number"))
+if a>0:
+    print("Given number is positive")
+output:-
+Enter first number3
+Given number is positive
