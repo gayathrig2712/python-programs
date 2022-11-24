@@ -1,0 +1,19 @@
+a=int(input("Enter value of a"))
+b=int(input("Enter value of b"))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)
+print(a**b)
+output:-
+Enter value of a50
+Enter value of b25
+75
+25
+1250
+2.0
+0
+2
+2980232238769531250000000000000000000000000
