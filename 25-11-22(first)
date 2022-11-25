@@ -1,0 +1,9 @@
+list=[1,2,3,4,5,6]
+i=int(input("Enter an element"))
+if i in list:
+    print("The given element is in list")
+else:
+    print("The given element is not in list")
+output:-
+Enter an element5
+The given element is in list
