@@ -6,3 +6,22 @@ def eligible(n):
         print("Not eligible")
 n=int(input())
 eligible(n)
+way-2
+def eligible(n):
+    if n>=18:
+        return "Eligible"
+    else:
+        return "Not eligible"
+n=int(input())
+print(eligible(n))
+way-3
+def eligible(n):
+    if n>=18:
+        return True
+    else:
+        return False
+n=int(input())
+if(eligible(n)):
+    print("Eligible")
+else:
+    print("Not eligible")
