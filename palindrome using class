@@ -1,0 +1,14 @@
+class Solution:
+    def  Palindrome(self,s):
+        if s[::-1]==temp:
+            return True
+        else:
+            return False
+s=input()
+temp=s 
+ss=Solution()
+ss.Palindrome(s)
+if ss.Palindrome(s):
+    print("Yes it is a Palindrome")
+else:
+    print("No it is not a Palindrome")
