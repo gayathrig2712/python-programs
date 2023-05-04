@@ -1,0 +1,13 @@
+class Solution:
+    def fibonocci(self,n):
+        t1=0
+        t2=1 
+        print(t1,t2,sep="\n")
+        for i in range(2,n):
+            new=t1+t2
+            print(new)
+            t1=t2
+            t2=new
+n=int(input("Enter range: "))
+s=Solution()
+s.fibonocci(n)
