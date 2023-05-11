@@ -1,0 +1,17 @@
+import math
+sieve=[]
+n=100
+n=n+1
+for i in range(0,n):
+    sieve.append(1)
+x=int(math.sqrt(n))
+for i in range(2,x+1):
+    if sieve[i]==1:
+        for j in range(i*i,n,i):
+            sieve[j]=0
+l,r=map(int,input().split())
+sum=0
+for i in range(l,r+1):
+    if sieve[i]==1:
+        sum=sum+i 
+print(sum)
